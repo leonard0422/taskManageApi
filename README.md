@@ -4,7 +4,7 @@
 - **Version PHP:** 8.2.23
 - **Type DB:** pgsql
 - **Name DB:** task_manager_db
-- Definir token Api
+- Definir token Api .env
 
 - **cargar paquetes:** composer install
 - **crear tabla base de datos (Solo si el usuario tiene accesos a postgres y permisos de creación, sino omitir):** php artisan db:create
