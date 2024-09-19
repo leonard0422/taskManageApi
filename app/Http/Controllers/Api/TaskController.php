@@ -38,23 +38,6 @@ class TaskController extends ControllerApi
     }
 
     /**
-     * Display the specified resource.
-     */
-    // check later No se usa por el momento
-    // public function show(string $id)
-    // {
-        // try {
-        //     $task = $this->taskRepository->findTaskById($id);
-        //     return new TaskResource($task);
-        // } catch (ModelNotFoundException $e) {
-        //     return response()->json([
-        //         'error' => 'Tarea no encontrada',
-        //         'message' => $e->getMessage(),
-        //     ], 404);
-        // }
-    // }
-
-    /**
      * Update the specified resource in storage.
      */
     public function update(TaskRequest $request, string $id)

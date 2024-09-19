@@ -7,7 +7,7 @@
 - Definir token Api
 
 - **cargar paquetes:** composer install
-- **crear tabla base de datos:** php artisan db:create
+- **crear tabla base de datos (Solo si el usuario tiene accesos a postgres y permisos de creación, sino omitir):** php artisan db:create
 - **Ejecutar migraciones:** php artisan migrate
 - **Correr el servidor back:** php artisan serve
 
@@ -33,9 +33,9 @@ Se requiere la creación de una API Restful básica (CRUD), con su respectivo fr
 - Deseable, implementación de seguridad al api.
 
 ## Si no carga la api limpiar cache
-    - composer dump-autoload
-    - php artisan config:clear
-    - php artisan config:cache
-    - php artisan cache:clear
+    composer dump-autoload
+    php artisan config:clear
+    php artisan config:cache
+    php artisan cache:clear
 
 
