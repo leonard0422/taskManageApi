@@ -2,8 +2,11 @@
 # Comandos Backend
 - **Version laravel:** 11.23.5
 - **Version PHP:** 8.2.23
-- **DB:** pgsql
+- **Type DB:** pgsql
+- **Name DB:** task_manager_db
+- Definir token Api
 
+- **cargar paquetes:** composer install
 - **crear tabla base de datos:** php artisan db:create
 - **Ejecutar migraciones:** php artisan migrate
 - **Correr el servidor back:** php artisan serve
