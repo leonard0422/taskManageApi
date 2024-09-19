@@ -123,5 +123,5 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
-    'api_token' => env('API_TOKEN', 'default_token_if_not_set'),
+    'api_token' => env('API_TOKEN', ''),
 ];

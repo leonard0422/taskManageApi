@@ -20,6 +20,5 @@ class TaskResource extends JsonResource
             'description' => $this->description,
             'status' => $this->status,
         ];
-        // return parent::toArray($request);
     }
 }

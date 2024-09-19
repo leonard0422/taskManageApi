@@ -17,7 +17,6 @@ class ApiTokenMiddleware
     public function handle(Request $request, Closure $next): Response
     {
         $token = $request->header('Authorization');
-        // dd(Config::get('app.api_token'));
         if ($token !== 'Bearer ' . config('app.api_token')) {
             return response()->json(['error' => 'Unauthorized'], 401);
         }
